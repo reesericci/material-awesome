@@ -4,7 +4,7 @@
 
 ## Installation
 
-use the [material-awesomeSH] script (github.com/reesericci/material-awesomesh)
+Use the material-awesomeSH script (github.com/reesericci/material-awesomesh)
 
 * [Configuration](./configuration) is about all the **settings** available
 * [Layout](./layout) hold the **disposition** of all the widgets
