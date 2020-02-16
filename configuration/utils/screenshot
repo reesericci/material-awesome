@@ -1,2 +1,2 @@
 #!/bin/bash
-flameshot-gui
+flameshot gui
