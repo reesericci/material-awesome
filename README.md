@@ -16,13 +16,16 @@ Use the [material-awesomeSH](https://github.com/reesericci/material-awesomesh) s
 - [i3lock-fancy](https://github.com/meskarune/i3lock-fancy) the lockscreen application
 - [xclip](https://github.com/astrand/xclip) for copying screenshots to clipboard
 - __gnome-keyring-daemon__ and a __policykit-agent__ (by default policykit-1-gnome is enabled)
-- NetworkManager & NetworkManager-applet (all lowercase) for the network applet
+- [Blueberry](https://github.com/linuxmint/bluetooth) Bluetooth management
+- [NetworkManager & NetworkManager Applet](https://wiki.gnome.org/Projects/NetworkManager) for the network management
+- [XFCE4 Power Manager](https://docs.xfce.org/xfce/xfce4-power-manager/start) Power management
 -  (Optional) __qt5-styles-gtk2__ or __qt5-styles-plugins__ for making QT and KDE applications look the same as gnome applications
 - (Optional) [Materia](https://github.com/nana-4/materia-theme) as GTK theme
 - (Optional) [Papirus Dark](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) as icon theme
 - (Optional) [lxappearance](https://sourceforge.net/projects/lxde/files/LXAppearance/) to set up the gtk and icon theme
 - (Optional) [xbacklight](https://www.x.org/archive/X11R7.5/doc/man/man1/xbacklight.1.html) for adjusting brightness on laptops (disabled by default)
-- (Optional) [kde-spectacle](https://kde.org/applications/utilities/org.kde.spectacle) my personal screenshot utility of choice, can be replaced by whichever you want, just remember to edit the screenshot utility script
+- (Optional) [Flameshot](https://flameshot.js.org) my personal screenshot utility of choice, can be replaced by whichever you want, just remember to edit the screenshot utility script
+- (Optional) [F.lux](https://getflux.com) to be a night light/blue light filter and syncs with the sun
 
 ### 2) Clone the configuration
 
