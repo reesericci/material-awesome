@@ -24,7 +24,7 @@ Use the [material-awesomeSH](https://github.com/reesericci/material-awesomesh) s
 - (Optional) [Papirus Dark](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) as icon theme
 - (Optional) [lxappearance](https://sourceforge.net/projects/lxde/files/LXAppearance/) to set up the gtk and icon theme
 - (Optional) [xbacklight](https://www.x.org/archive/X11R7.5/doc/man/man1/xbacklight.1.html) for adjusting brightness on laptops (disabled by default)
-- (Optional) [Flameshot](https://flameshot.js.org) my personal screenshot utility of choice, can be replaced by whichever you want, just remember to edit the screenshot utility script
+- (Optional) [Flameshot](https://flameshot.js.org) my personal screenshot utility of choice
 - (Optional) [F.lux](https://getflux.com) to be a night light/blue light filter and syncs with the sun
 
 ### 2) Clone the configuration
