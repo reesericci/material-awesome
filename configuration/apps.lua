@@ -26,7 +26,9 @@ return {
   run_on_start_up = {
     'compton --config ' .. filesystem.get_configuration_dir() .. '/configuration/compton.conf',
     'nm-applet', -- wifi
-    'blueberry', -- Bluetooth tray iconlocal filesystem = require('gears.filesystem')
+    'blueberry-tray', -- Bluetooth tray iconlocal filesystem = require('gears.filesystem')
+    'flameshot', -- Gotta screenshot
+    'fluxgui', -- Blue light filter
     -- Add applications that need to be killed between reloads
     -- to avoid multipled instances, inside the awspawn script
     '~/.config/awesome/configuration/awspawn' -- Spawn "dirty" apps that can linger between sessions
