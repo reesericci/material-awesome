@@ -8,6 +8,7 @@ return {
   folder = dir .. '/folder.svg',
   music = dir .. '/music.svg',
   game = dir .. '/google-controller.svg',
+  mail = dir .. '/mail.svg',
   lab = dir .. '/flask.svg',
   --others
   menu = dir .. '/menu.svg',

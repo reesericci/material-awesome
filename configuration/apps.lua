@@ -12,14 +12,16 @@ return {
     rofi = rofi_command,
     lock = 'i3lock-fancy',
     quake = 'konsole',
-    
+    email = 'mailspring',
+    mail = 'mailspring',	
     -- Editing these also edits the default program
     -- associated with each tag/workspace
-    browser = 'env brave',
+    browser = 'vivaldi-stable',
     editor = 'konsole', -- gui text editor
     social = 'env discord',
     game = rofi_command,
     files = 'nautilus',
+    mail = 'mailspring',
     music = 'spotify'
   },
   -- List of apps to start once on start-up
@@ -29,6 +31,7 @@ return {
     'blueberry-tray', -- Bluetooth tray iconlocal filesystem = require('gears.filesystem')
     'flameshot', -- Gotta screenshot
     'fluxgui', -- Blue light filter
+    'xfce4-power-manager', -- Power manager
     -- Add applications that need to be killed between reloads
     -- to avoid multipled instances, inside the awspawn script
     '~/.config/awesome/configuration/awspawn' -- Spawn "dirty" apps that can linger between sessions

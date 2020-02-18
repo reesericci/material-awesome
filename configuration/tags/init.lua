@@ -41,6 +41,12 @@ local tags = {
     screen = 1
   },
   {
+    icon = icons.mail,
+    type = 'mail',
+    defaultApp= apps.default.mail,
+    screen = 1
+  },
+  {
     icon = icons.lab,
     type = 'any',
     defaultApp = apps.default.rofi,
