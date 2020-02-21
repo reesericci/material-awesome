@@ -8,16 +8,16 @@ local rofi_command = 'env /usr/bin/rofi -dpi ' .. get_dpi() .. ' -width ' .. wit
 return {
   -- List of apps to start by default on some actions
   default = {
-    terminal = 'konsole',
+    terminal = 'terminator',
     rofi = rofi_command,
     lock = 'i3lock-fancy',
-    quake = 'konsole',
+    quake = 'terminator',
     email = 'mailspring',
     mail = 'mailspring',	
     -- Editing these also edits the default program
     -- associated with each tag/workspace
     browser = 'vivaldi-stable',
-    editor = 'konsole', -- gui text editor
+    editor = 'terminator',
     social = 'env discord',
     game = rofi_command,
     files = 'nautilus',
