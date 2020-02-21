@@ -36,8 +36,8 @@ git clone https://github.com/reesericci/material-awesome.git ~/.config/awesome
 ``` 
 cp ./theme/bashrc ~/.bashrc 
 ```
-## Default Apps - To change them change the /configuration/apps.lua file
-- Terminal: [Terminator]
+### Default Apps - To change them change the /configuration/apps.lua file
+- Terminal: [Terminator](https://launchpad.net/terminator/)
 - Browser: [Vivaldi Stable](https://vivaldi.com)
 - Chat: [Discord](https://discordapp.com)
 - Files: [Nautilus/GNOME Files](https://wiki.gnome.org/action/show/Apps/Files?action=show&redirect=Apps%2FNautilus)
