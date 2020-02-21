@@ -32,6 +32,8 @@ Use the [material-awesomeSH](https://github.com/reesericci/material-awesomesh) s
 ```
 git clone https://github.com/reesericci/material-awesome.git ~/.config/awesome
 ```
+### 3) Copy bashrc for stylized terminal
+``` cp ./theme/bashrc ~/.bashrc ```
 ## Config Files/Settings
 * [Configuration](./configuration) is about all the **settings** available
 * [Layout](./layout) hold the **disposition** of all the widgets
