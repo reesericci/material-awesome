@@ -4,7 +4,7 @@
 
 ## Installation
 ### Arch/Manjaro
-Use the [material-awesomeSH](https://github.com/reesericci/material-awesomesh) script
+Use the [material-awesomeSH](https://github.com/reesericci/material-awesomesh) script - does not install default apps, only dependencies & optional dependencies.
 
 ### Other Distros
 
@@ -36,6 +36,8 @@ git clone https://github.com/reesericci/material-awesome.git ~/.config/awesome
 ``` 
 cp ./theme/bashrc ~/.bashrc 
 ```
+## Other information
+
 ### Default Apps - To change them change the /configuration/apps.lua file
 - Terminal: [Terminator](https://launchpad.net/terminator/)
 - Browser: [Vivaldi Stable](https://vivaldi.com)
