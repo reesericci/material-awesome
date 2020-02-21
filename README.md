@@ -33,7 +33,18 @@ Use the [material-awesomeSH](https://github.com/reesericci/material-awesomesh) s
 git clone https://github.com/reesericci/material-awesome.git ~/.config/awesome
 ```
 ### 3) Copy bashrc for stylized terminal
-``` cp ./theme/bashrc ~/.bashrc ```
+``` 
+cp ./theme/bashrc ~/.bashrc 
+```
+## Default Apps - To change them change the /configuration/apps.lua file
+- Terminal: [Terminator]
+- Browser: [Vivaldi Stable](https://vivaldi.com)
+- Chat: [Discord](https://discordapp.com)
+- Files: [Nautilus/GNOME Files](https://wiki.gnome.org/action/show/Apps/Files?action=show&redirect=Apps%2FNautilus)
+- Music: [Spotify (Snap)](https://snapcraft.io/spotify)
+- Screenshot Utility: [Flameshot](https://flameshot.js.org)
+- Email: [Mailspring](https://getmailspring.com)
+
 ## Config Files/Settings
 * [Configuration](./configuration) is about all the **settings** available
 * [Layout](./layout) hold the **disposition** of all the widgets
