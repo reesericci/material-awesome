@@ -50,7 +50,7 @@ Open ```lxappearance``` and set the ```Widget``` to be Materia Dark and set the 
 - Browser: [Vivaldi Stable](https://vivaldi.com)
 - Chat: [Discord](https://discordapp.com)
 - Files: [Nautilus/GNOME Files](https://wiki.gnome.org/action/show/Apps/Files?action=show&redirect=Apps%2FNautilus)
-- Music: [Spotify (Snap)](https://snapcraft.io/spotify)
+- Music: [Spotify](https://snapcraft.io/spotify)
 - Screenshot Utility: [Flameshot](https://flameshot.js.org)
 - Email: [Mailspring](https://getmailspring.com)
 
