@@ -23,10 +23,10 @@ Open ```lxappearance``` and set the ```Widget``` to be Materia Dark and set the 
 - [Blueberry](https://github.com/linuxmint/bluetooth) Bluetooth management
 - [NetworkManager & NetworkManager Applet](https://wiki.gnome.org/Projects/NetworkManager) for the network management
 - [XFCE4 Power Manager](https://docs.xfce.org/xfce/xfce4-power-manager/start) Power management
+- [lxappearance](https://sourceforge.net/projects/lxde/files/LXAppearance/) to set up the gtk and icon theme
 -  (Optional) __qt5-styles-gtk2__ or __qt5-styles-plugins__ for making QT and KDE applications look the same as gnome applications
 - (Optional) [Materia](https://github.com/nana-4/materia-theme) as GTK theme
 - (Optional) [Papirus Dark](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) as icon theme
-- (Optional) [lxappearance](https://sourceforge.net/projects/lxde/files/LXAppearance/) to set up the gtk and icon theme
 - (Optional) [xbacklight](https://www.x.org/archive/X11R7.5/doc/man/man1/xbacklight.1.html) for adjusting brightness on laptops (disabled by default)
 - (Optional) [Flameshot](https://flameshot.js.org) my personal screenshot utility of choice
 - (Optional) [F.lux](https://getflux.com) to be a night light/blue light filter and syncs with the sun
