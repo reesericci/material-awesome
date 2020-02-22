@@ -37,7 +37,7 @@ git clone https://github.com/reesericci/material-awesome.git ~/.config/awesome
 cp ./theme/bashrc ~/.bashrc 
 ```
 ### 4) Enable Materia GTK Theme and Papairus Dark ICon Theme
-Open ```lxappearance``` and set the "Widget" to be Materia Dark and set the "Icons" to be Papirus Dark
+Open ```lxappearance``` and set the ```Widget``` to be Materia Dark and set the ```Icons``` to be Papirus Dark
 
 ## Other information
 
