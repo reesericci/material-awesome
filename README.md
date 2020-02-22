@@ -4,7 +4,10 @@
 
 ## Installation
 ### Arch/Manjaro
-Use the [material-awesomeSH](https://github.com/reesericci/material-awesomesh) script - does not install default apps, only dependencies & optional dependencies.
+
+### 1) Use the [material-awesomeSH](https://github.com/reesericci/material-awesomesh) script - does not install default apps, only dependencies & optional dependencies.
+### 2) Set Themes & Icons
+Open ```lxappearance``` and set the ```Widget``` to be Materia Dark and set the ```Icons``` to be Papirus Dark
 
 ### Other Distros
 
@@ -36,7 +39,7 @@ git clone https://github.com/reesericci/material-awesome.git ~/.config/awesome
 ``` 
 cp ./theme/bashrc ~/.bashrc 
 ```
-### 4) Enable Materia GTK Theme and Papairus Dark ICon Theme
+### 4) Set Themes & Icons
 Open ```lxappearance``` and set the ```Widget``` to be Materia Dark and set the ```Icons``` to be Papirus Dark
 
 ## Other information
