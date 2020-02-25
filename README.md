@@ -6,13 +6,10 @@
 ### Arch/Manjaro
 
 ### 1) Install the script
-Use the [material-awesomeSH](https://github.com/reesericci/material-awesomesh) script - does not install default apps, only dependencies & optional dependencies.
+Go to the releases tab and download the latest PKGBUILD and install it with ```makepkg -i```
 ### 2) Set Themes & Icons
 Open ```lxappearance``` and set the ```Widget``` to be Materia Dark and set the ```Icons``` to be Papirus Dark
-### 3) Copy bashrc for stylized terminal
-``` 
-cp ./theme/bashrc ~/.bashrc 
-```
+
 ### Other Distros
 
 ### 1) Get all the dependencies
