@@ -28,7 +28,7 @@ return {
   run_on_start_up = {
     'compton --config ' .. filesystem.get_configuration_dir() .. '/configuration/compton.conf',
     'nm-applet', -- wifi
-    'blueberry-tray', -- Bluetooth tray iconlocal filesystem = require('gears.filesystem')
+    'blueberry-tray', -- Bluetooth tray icon
     'flameshot', -- Gotta screenshot
     'fluxgui', -- Blue light filter
     'xfce4-power-manager', -- Power manager
