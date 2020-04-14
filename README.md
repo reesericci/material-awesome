@@ -5,8 +5,9 @@
 ## Installation
 ### Arch/Manjaro
 
-### 1) Install the script
-Go to the releases tab and download the latest PKGBUILD and install it with ```makepkg -i```
+### 1) Install the PKGBUILD
+Go to the releases tab and download the latest PKGBUILD and install it with ```makepkg -i``` (You must be in the same directory as the PKGBUILD) 
+
 ### 2) Set Themes & Icons
 Open ```lxappearance``` and set the ```Widget``` to be Materia Dark and set the ```Icons``` to be Papirus Dark
 
@@ -38,7 +39,7 @@ git clone https://github.com/reesericci/material-awesome.git ~/.config/awesome
 ```
 ### 3) Copy bashrc for stylized terminal
 ``` 
-cp ./theme/bashrc ~/.bashrc 
+cp ~/.config/awesome/theme/bashrc ~/.bashrc 
 ```
 ### 4) Set Themes & Icons
 Open ```lxappearance``` and set the ```Widget``` to be Materia Dark and set the ```Icons``` to be Papirus Dark
