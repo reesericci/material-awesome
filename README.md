@@ -8,7 +8,7 @@
 ### 2) Install the PKGBUILD
 Go to the releases tab and download the latest PKGBUILD
 ### 2b)
-Open your terminal emulator of choice and change directory (cd) into the same directory as the PKGBUILD and then run ```makepkg -si -p material-awesome.PGBUILD``` to install the package.
+Open your terminal emulator of choice and change directory (cd) into the same directory as the PKGBUILD and then run ```makepkg -si -p material-awesome.PKGBUILD``` to install the package.
 
 ### 3) Set Themes & Icons
 Open ```lxappearance``` and set the ```Widget``` to be Materia Dark and set the ```Icons``` to be Papirus Dark
@@ -16,21 +16,21 @@ Open ```lxappearance``` and set the ```Widget``` to be Materia Dark and set the 
 ### Install manually
 
 ### 1) Get all the dependencies
-a- [AwesomeWM](https://awesomewm.org/) as the window manager
-a- [Roboto](https://fonts.google.com/specimen/Roboto) as the **font**
-a- [Rofi](https://github.com/DaveDavenport/rofi) for the app launcher
-a- [Tryone144's compton fork ](https://github.com/tryone144/compton) for the compositor (blur and animations)
-a- [i3lock-fancy](https://github.com/meskarune/i3lock-fancy) the lockscreen application
-a- [xclip](https://github.com/astrand/xclip) for copying screenshots to clipboard
-- __gnome-keyring-daemon__ and a __policykit-agent__ (by default policykit-1-gnome is enabled)
-a- [Blueberry](https://github.com/linuxmint/bluetooth) for bluetooth management
-a- [NetworkManager & NetworkManager Applet](https://wiki.gnome.org/Projects/NetworkManager) for network management
-a- [XFCE4 Power Manager](https://docs.xfce.org/xfce/xfce4-power-manager/start) Power management
-a- [lxappearance](https://sourceforge.net/projects/lxde/files/LXAppearance/) to set up the gtk and icon theme
-a- [git](https://git-scm.com) for cloning the material-awesome config
-a- (Optional) [Materia](https://github.com/nana-4/materia-theme) as GTK theme
-a- (Optional) [Papirus Dark](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) as icon theme
-a- (Optional) [Flameshot](https://flameshot.js.org) my personal screenshot utility of choice
+- [AwesomeWM](https://awesomewm.org/) as the window manager
+- [Roboto](https://fonts.google.com/specimen/Roboto) as the **font**
+- [Rofi](https://github.com/DaveDavenport/rofi) for the app launcher
+- [Tryone144's compton fork ](https://github.com/tryone144/compton) for the compositor (blur and animations)
+- [i3lock-fancy](https://github.com/meskarune/i3lock-fancy) the lockscreen application
+- [xclip](https://github.com/astrand/xclip) for copying screenshots to clipboard
+- [Blueberry](https://github.com/linuxmint/bluetooth) for bluetooth management
+- [NetworkManager & NetworkManager Applet](https://wiki.gnome.org/Projects/NetworkManager) for network management
+- [XFCE4 Power Manager](https://docs.xfce.org/xfce/xfce4-power-manager/start) Power management
+- [lxappearance](https://sourceforge.net/projects/lxde/files/LXAppearance/) to set up the gtk and icon theme
+- [git](https://git-scm.com) for cloning the material-awesome config
+- (Optional) [Materia](https://github.com/nana-4/materia-theme) as GTK theme
+- (Optional) [Papirus Dark](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) as icon theme
+- (Optional) [Flameshot](https://flameshot.js.org) for the screenshot utility
+- (Optional) [Terminator](https://flameshot.js.org) for the terminal emulator
 
 ### 2) Clone the configuration
 
