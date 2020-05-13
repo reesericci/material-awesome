@@ -16,8 +16,9 @@ return {
     mail = 'mailspring',	
     -- Editing these also edits the default program
     -- associated with each tag/workspace
-    browser = 'vivaldi-stable',
-    editor = 'terminator',
+    browser = 'firefox-beta-bin',
+    console = 'terminator',
+    editor  = 'atom',
     social = 'env discord',
     game = rofi_command,
     files = 'nautilus',
@@ -32,6 +33,10 @@ return {
     'flameshot', -- Gotta screenshot
     'fluxgui', -- Blue light filter
     'xfce4-power-manager', -- Power manager
+    'polychromatic-tray-applet', -- Razer Keyboards
+    'dwall -s exodus', -- Wallpaper
+    'slack -u', -- Slack Applet
+    'mailspring -b', -- Email Applet
     -- Add applications that need to be killed between reloads
     -- to avoid multipled instances, inside the awspawn script
     '~/.config/awesome/configuration/awspawn' -- Spawn "dirty" apps that can linger between sessions
