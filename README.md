@@ -1,36 +1,36 @@
-## Material and Mouse driven theme for [AwesomeWM 4.3](https://awesomewm.org/)
-### Original work by PapyElGringo, official development seem to have moved to [material-shell](https://github.com/PapyElGringo/material-shell)
-## This is a fork of HikariKnight's material-awesome AwesomeWM theme
+## Material Design theme for [AwesomeWM](https://awesomewm.org/)
 
 ## Installation
-### Arch/Manjaro
+### Arch & Arch Derivatives
 
-### 1) Install the PKGBUILD
-Go to the releases tab and download the latest PKGBUILD and install it with ```makepkg -i``` (You must be in the same directory as the PKGBUILD) 
+### 1) Get AUR dependencies (pacman will install all mainstream dependencies)
+- [Tryone144's compton fork (compton-tryone-git)](https://aur.archlinux.org/packages/compton-tryone-git/) for the compositor (blur and animations)
+### 2) Install the PKGBUILD
+Go to the releases tab and download the latest PKGBUILD
+### 2b)
+Open your terminal emulator of choice and change directory (cd) into the same directory as the PKGBUILD and then run ```makepkg -si``` to install the package.
 
-### 2) Set Themes & Icons
+### 3) Set Themes & Icons
 Open ```lxappearance``` and set the ```Widget``` to be Materia Dark and set the ```Icons``` to be Papirus Dark
 
-### Other Distros
+### Install manually
 
 ### 1) Get all the dependencies
-- [AwesomeWM](https://awesomewm.org/) as the window manager
-- [Roboto](https://fonts.google.com/specimen/Roboto) as the **font**
-- [Rofi](https://github.com/DaveDavenport/rofi) for the app launcher
-- [This Compton fork](https://github.com/tryone144/compton) for the compositor (blur and animations)
-- [i3lock-fancy](https://github.com/meskarune/i3lock-fancy) the lockscreen application
-- [xclip](https://github.com/astrand/xclip) for copying screenshots to clipboard
+a- [AwesomeWM](https://awesomewm.org/) as the window manager
+a- [Roboto](https://fonts.google.com/specimen/Roboto) as the **font**
+a- [Rofi](https://github.com/DaveDavenport/rofi) for the app launcher
+a- [Tryone144's compton fork ](https://github.com/tryone144/compton) for the compositor (blur and animations)
+a- [i3lock-fancy](https://github.com/meskarune/i3lock-fancy) the lockscreen application
+a- [xclip](https://github.com/astrand/xclip) for copying screenshots to clipboard
 - __gnome-keyring-daemon__ and a __policykit-agent__ (by default policykit-1-gnome is enabled)
-- [Blueberry](https://github.com/linuxmint/bluetooth) Bluetooth management
-- [NetworkManager & NetworkManager Applet](https://wiki.gnome.org/Projects/NetworkManager) for the network management
-- [XFCE4 Power Manager](https://docs.xfce.org/xfce/xfce4-power-manager/start) Power management
-- [lxappearance](https://sourceforge.net/projects/lxde/files/LXAppearance/) to set up the gtk and icon theme
--  (Optional) __qt5-styles-gtk2__ or __qt5-styles-plugins__ for making QT and KDE applications look the same as gnome applications
-- (Optional) [Materia](https://github.com/nana-4/materia-theme) as GTK theme
-- (Optional) [Papirus Dark](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) as icon theme
-- (Optional) [xbacklight](https://www.x.org/archive/X11R7.5/doc/man/man1/xbacklight.1.html) for adjusting brightness on laptops (disabled by default)
-- (Optional) [Flameshot](https://flameshot.js.org) my personal screenshot utility of choice
-- (Optional) [F.lux](https://getflux.com) to be a night light/blue light filter and syncs with the sun
+a- [Blueberry](https://github.com/linuxmint/bluetooth) for bluetooth management
+a- [NetworkManager & NetworkManager Applet](https://wiki.gnome.org/Projects/NetworkManager) for network management
+a- [XFCE4 Power Manager](https://docs.xfce.org/xfce/xfce4-power-manager/start) Power management
+a- [lxappearance](https://sourceforge.net/projects/lxde/files/LXAppearance/) to set up the gtk and icon theme
+a- [git](https://git-scm.com) for cloning the material-awesome config
+a- (Optional) [Materia](https://github.com/nana-4/materia-theme) as GTK theme
+a- (Optional) [Papirus Dark](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) as icon theme
+a- (Optional) [Flameshot](https://flameshot.js.org) my personal screenshot utility of choice
 
 ### 2) Clone the configuration
 
@@ -46,15 +46,26 @@ Open ```lxappearance``` and set the ```Widget``` to be Materia Dark and set the 
 
 ## Other information
 
-### Default Apps - To change them change the /configuration/apps.lua file
-- Terminal: [Terminator](https://launchpad.net/terminator/)
-- Browser: [Vivaldi Stable](https://vivaldi.com)
+### Default Apps - To change them modify the configuration/apps.lua file
+- Browser: [Firefox Beta](https://firefox.com)
+- Console: [Terminator](https://launchpad.net/terminator/)
+- Code Editor: [Atom](https://atom.io)
 - Chat: [Discord](https://discordapp.com)
 - Files: [Nautilus/GNOME Files](https://wiki.gnome.org/action/show/Apps/Files?action=show&redirect=Apps%2FNautilus)
 - Music: [Spotify](https://snapcraft.io/spotify)
-- Screenshot Utility: [Flameshot](https://flameshot.js.org)
 - Email: [Mailspring](https://getmailspring.com)
-
+- Screenshot Utility: [Flameshot](https://flameshot.js.org)
+## On startup apps - Modify the configuration/apps.lua file
+- Compton
+- NetworkManager applet
+- Blueberry applet
+- Flameshot 
+- XFCE4 Power Manager
+- [F.lux](https://justgetflux.com/) Blue light filter
+- [Polychromatic Applet (Openrazer frontend)](https://polychromatic.app/) for my Razer Blade RGB control
+- [dwall](https://github.com/adi1090x/dynamic-wallpaper) for wallpaper (I like exodus)
+- [Slack applet](https://slack.com) for communication
+- [Mailspring applet](https://getmailspring.com) for email
 ## Config Files/Settings
 * [Configuration](./configuration) is about all the **settings** available
 * [Layout](./layout) hold the **disposition** of all the widgets
