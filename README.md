@@ -8,7 +8,7 @@
 ### 2) Install the PKGBUILD
 Go to the releases tab and download the latest PKGBUILD
 ### 2b)
-Open your terminal emulator of choice and change directory (cd) into the same directory as the PKGBUILD and then run ```makepkg -si``` to install the package.
+Open your terminal emulator of choice and change directory (cd) into the same directory as the PKGBUILD and then run ```makepkg -si -p material-awesome.PGBUILD``` to install the package.
 
 ### 3) Set Themes & Icons
 Open ```lxappearance``` and set the ```Widget``` to be Materia Dark and set the ```Icons``` to be Papirus Dark
