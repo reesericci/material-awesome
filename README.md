@@ -47,7 +47,7 @@ Open ```lxappearance``` and set the ```Widget``` to be Materia Dark and set the 
 ## Other information
 
 ### Default Apps - To change them modify the configuration/apps.lua file
-- Browser: [Firefox Beta](https://firefox.com)
+- Browser: [Firefox Nightly](https://firefox.com)
 - Console: [Terminator](https://launchpad.net/terminator/)
 - Code Editor: [Atom](https://atom.io)
 - Chat: [Discord](https://discordapp.com)

@@ -16,7 +16,7 @@ return {
     mail = 'mailspring',	
     -- Editing these also edits the default program
     -- associated with each tag/workspace
-    browser = 'firefox-beta-bin',
+    browser = 'firefox-nightly',
     console = 'terminator',
     editor  = 'atom',
     social = 'env discord',
