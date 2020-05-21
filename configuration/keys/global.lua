@@ -124,10 +124,18 @@ local globalKeys =
     end,
     {description = 'open a browser', group = 'launcher'}
   ),
+  awful.key(
+    {modkey},
+    'd',
+    function()
+      awful.util.spawn(apps.default.social)
+    end,
+    {description = 'opens the default social app', group = 'launcher'}
+  ),
   -- Standard program
   awful.key(
     {modkey},
-    'x',
+    'Return',
     function()
       awful.spawn(apps.default.terminal)
     end,
