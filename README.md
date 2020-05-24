@@ -1,5 +1,9 @@
 ## Material Design theme for [AwesomeWM](https://awesomewm.org/)
 
+## Firefox Theme
+I have designed a firefox theme for material-awesome! If you would like to download click the link below.
+[https://addons.mozilla.org/firefox/downloads/file/3577094/material_awesome-1.0-an+fx.xpi](https://addons.mozilla.org/firefox/downloads/file/3577094/material_awesome-1.0-an+fx.xpi)
+
 ## Installation
 ### Arch & Arch Derivatives
 
