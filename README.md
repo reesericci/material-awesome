@@ -1,8 +1,12 @@
 ## Material Design theme for [AwesomeWM](https://awesomewm.org/)
 
 ## Firefox Theme
-I have designed a firefox theme for material-awesome! If you would like to download click the link below.
+I have designed a firefox theme for material-awesome! If you would like to download it, click the link below.
 [https://addons.mozilla.org/firefox/downloads/file/3577094/material_awesome-1.0-an+fx.xpi](https://addons.mozilla.org/firefox/downloads/file/3577094/material_awesome-1.0-an+fx.xpi)
+
+## BandagedBD (BetterDiscord) Discord Theme
+I made a theme for BandagedBD that complements this desktop, check it out at the link below:
+[https://github.com/reesericci/material-awesome-discord](https://github.com/reesericci/material-awesome-discord)
 
 ## Installation
 ### Arch & Arch Derivatives
