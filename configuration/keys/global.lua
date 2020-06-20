@@ -14,8 +14,8 @@ local globalKeys =
   -- Tag browsing
   awful.key({modkey}, 'w', awful.tag.viewprev, {description = 'view previous', group = 'tag'}),
   awful.key({modkey}, 's', awful.tag.viewnext, {description = 'view next', group = 'tag'}),
-  awful.key({altkey, 'Control'}, 'Up', awful.tag.viewprev, {description = 'view previous', group = 'tag'}),
-  awful.key({altkey, 'Control'}, 'Down', awful.tag.viewnext, {description = 'view next', group = 'tag'}),
+  awful.key({modkey}, 'Up', awful.tag.viewprev, {description = 'view previous', group = 'tag'}),
+  awful.key({modkey}, 'Down', awful.tag.viewnext, {description = 'view next', group = 'tag'}),
   awful.key({modkey}, 'Escape', awful.tag.history.restore, {description = 'go back', group = 'tag'}),
   -- Default client focus
   awful.key(
@@ -38,7 +38,7 @@ local globalKeys =
     {modkey},
     'r',
     function()
-      _G.screen.primary.left_panel:toggle(true)
+      awful.util.spawn('dmenu_run')
     end,
     {description = 'show main menu', group = 'awesome'}
   ),
@@ -83,14 +83,6 @@ local globalKeys =
       awful.spawn(apps.default.lock)
     end,
     {description = 'Lock the screen', group = 'awesome'}
-  ),
-  awful.key(
-    {modkey},
-    'Print',
-    function()
-      awful.util.spawn_with_shell(apps.default.delayed_screenshot)
-    end,
-    {description = 'Mark an area and screenshot it 10 seconds later (clipboard)', group = 'screenshots (clipboard)'}
   ),
   awful.key(
     {},
@@ -206,22 +198,6 @@ local globalKeys =
       awful.tag.incncol(-1, nil, true)
     end,
     {description = 'decrease the number of columns', group = 'layout'}
-  ),
-  awful.key(
-    {modkey},
-    'space',
-    function()
-      awful.layout.inc(1)
-    end,
-    {description = 'select next', group = 'layout'}
-  ),
-  awful.key(
-    {modkey, 'Shift'},
-    'space',
-    function()
-      awful.layout.inc(-1)
-    end,
-    {description = 'select previous', group = 'layout'}
   ),
   awful.key(
     {modkey, 'Control'},
@@ -342,14 +318,10 @@ local globalKeys =
   -- Open default program for tag
   awful.key(
     {modkey},
-    't',
+    'space',
     function()
       awful.spawn(
-          awful.screen.focused().selected_tag.defaultApp,
-          {
-            tag = _G.mouse.screen.selected_tag,
-            placement = awful.placement.bottom_right
-          }
+          awful.screen.focused().selected_tag.defaultApp
         )
     end,
     {description = 'open default program for tag/workspace', group = 'tag'}

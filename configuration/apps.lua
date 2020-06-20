@@ -8,9 +8,11 @@ local rofi_command = 'env /usr/bin/rofi -dpi ' .. get_dpi() .. ' -width ' .. wit
 return {
   -- List of apps to start by default on some actions
   default = {
+    screenshot = 'flameshot screen',
+    screenshot_region = 'flameshot gui',
     terminal = 'terminator',
     rofi = rofi_command,
-    lock = 'i3lock-fancy',
+    lock = 'dm-tool lock',
     quake = 'terminator',
     email = 'mailspring',
     mail = 'mailspring',	
@@ -18,7 +20,7 @@ return {
     -- associated with each tag/workspace
     browser = 'firefox-nightly',
     console = 'terminator',
-    editor  = 'atom',
+    editor  = 'emacs',
     social = 'env discord',
     game = rofi_command,
     files = 'nautilus',
