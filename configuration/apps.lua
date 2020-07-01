@@ -21,7 +21,7 @@ return {
     browser = 'firefox-nightly',
     console = 'terminator',
     editor  = 'emacs',
-    social = 'env discord',
+    social = 'env discord-canary',
     game = rofi_command,
     files = 'nautilus',
     mail = 'mailspring',
