@@ -58,7 +58,7 @@ Open ```lxappearance``` and set the ```Widget``` to be Materia Dark and set the 
 - Browser: [Firefox Nightly](https://firefox.com)
 - Console: [Terminator](https://launchpad.net/terminator/)
 - Code Editor: [Atom](https://atom.io)
-- Chat: [Discord](https://discordapp.com)
+- Social: [Discord Canary](https://discordapp.com)
 - Files: [Nautilus/GNOME Files](https://wiki.gnome.org/action/show/Apps/Files?action=show&redirect=Apps%2FNautilus)
 - Music: [Spotify](https://snapcraft.io/spotify)
 - Email: [Mailspring](https://getmailspring.com)

@@ -133,6 +133,16 @@ local globalKeys =
     end,
     {description = 'open a terminal', group = 'launcher'}
   ),
+ awful.key(
+    {modkey, 'Shift'},
+    'd',
+    function()
+      awful.spawn('terminator -x \'cordless\'')
+    end,
+    {description = 'open cordless discord', group = 'launcher'}
+  ),
+ 
+
   awful.key({modkey, 'Control'}, 'r', _G.awesome.restart, {description = 'reload awesome', group = 'awesome'}),
   awful.key({modkey, 'Control'}, 'q', _G.awesome.quit, {description = 'quit awesome', group = 'awesome'}),
   awful.key(
