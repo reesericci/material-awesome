@@ -15,8 +15,8 @@ return function(_, panel)
       widget = mat_icon
     },
     wibox.widget {
-      text = 'Search Applications',
-      font = 'Roboto medium 13',
+      text = 'Apps',
+      font = 'mononoki, bold 13',
       widget = wibox.widget.textbox
     },
     clickable = true,
@@ -43,8 +43,8 @@ return function(_, panel)
       widget = mat_icon
     },
     wibox.widget {
-      text = 'End work session',
-      font = 'Roboto medium 13',
+      text = 'Leave me',
+      font = 'mononoki, bold 13',
       widget = wibox.widget.textbox
     },
     clickable = true,
