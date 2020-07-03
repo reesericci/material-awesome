@@ -58,7 +58,7 @@ Open ```lxappearance``` and set the ```Widget``` to be Materia Dark and set the 
 - Browser: [Firefox Nightly](https://firefox.com)
 - Console: [Terminator](https://launchpad.net/terminator/)
 - Code Editor: [Atom](https://atom.io)
-- Social: [Discord Canary](https://discordapp.com)
+- Social: [Discord](https://discordapp.com)
 - Files: [Nautilus/GNOME Files](https://wiki.gnome.org/action/show/Apps/Files?action=show&redirect=Apps%2FNautilus)
 - Music: [Spotify](https://snapcraft.io/spotify)
 - Email: [Mailspring](https://getmailspring.com)
@@ -71,7 +71,7 @@ Open ```lxappearance``` and set the ```Widget``` to be Materia Dark and set the 
 - XFCE4 Power Manager
 - [F.lux](https://justgetflux.com/) Blue light filter
 - [Polychromatic Applet (Openrazer frontend)](https://polychromatic.app/) for my Razer Blade RGB control
-- [dwall](https://github.com/adi1090x/dynamic-wallpaper) for wallpaper (I like exodus)
+- [dwall](https://github.com/adi1090x/dynamic-wallpaper) for wallpaper (I like moon)
 - [Slack applet](https://slack.com) for communication
 - [Mailspring applet](https://getmailspring.com) for email
 ## Config Files/Settings

@@ -21,7 +21,7 @@ return {
     browser = 'firefox-nightly',
     console = 'terminator',
     editor  = 'emacs',
-    social = 'env discord-canary',
+    social = 'discord-',
     game = rofi_command,
     files = 'nautilus',
     mail = 'mailspring',
@@ -36,7 +36,7 @@ return {
     'fluxgui', -- Blue light filter
     'xfce4-power-manager', -- Power manager
     'polychromatic-tray-applet', -- Razer Keyboards
-    'dwall -s exodus', -- Wallpaper
+    'dwall -o moon', -- Wallpaper
     'slack -u', -- Slack Applet
     'mailspring -b', -- Email Applet
     -- Add applications that need to be killed between reloads
