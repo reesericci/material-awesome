@@ -71,7 +71,7 @@ Open ```lxappearance``` and set the ```Widget``` to be Materia Dark and set the 
 - XFCE4 Power Manager
 - [F.lux](https://justgetflux.com/) Blue light filter
 - [Polychromatic Applet (Openrazer frontend)](https://polychromatic.app/) for my Razer Blade RGB control
-- [dwall](https://github.com/adi1090x/dynamic-wallpaper) for wallpaper (I like moon)
+- [pacwall](https://github.com/Kharacternyk/pacwall) for wallpaper (Auto-generates based on packages)
 - [Slack applet](https://slack.com) for communication
 - [Mailspring applet](https://getmailspring.com) for email
 ## Config Files/Settings

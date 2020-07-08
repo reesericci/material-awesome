@@ -36,7 +36,7 @@ return {
     'fluxgui', -- Blue light filter
     'xfce4-power-manager', -- Power manager
     'polychromatic-tray-applet', -- Razer Keyboards
-    'dwall -s moon', -- Wallpaper
+    'pacwall -b "#192933" -d "#003F6B" -e "#EF6C00" -o ~/.config/awesome/theme/wallpapers/wallpaper.png', -- Wallpaper
     'slack -u', -- Slack Applet
     'mailspring -b', -- Email Applet
     -- Add applications that need to be killed between reloads
