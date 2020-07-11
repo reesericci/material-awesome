@@ -43,8 +43,8 @@ local globalKeys =
     {description = 'show main menu', group = 'awesome'}
   ),
   awful.key(
-    {altkey},
-    'space',
+    {modkey, 'Shift'},
+    'r',
     function()
       _G.screen.primary.left_panel:toggle(true)
     end,
