@@ -25,7 +25,7 @@ return {
   },
 
   run_on_start_up = {
-    'compton --config ' .. filesystem.get_configuration_dir() .. '/configuration/compton.conf',
+    'picom --config ' .. filesystem.get_configuration_dir() .. '/configuration/compton.conf',
     'nm-applet', -- wifi
     'blueberry-tray', -- Bluetooth tray icon
     'flameshot', -- Gotta screenshot
