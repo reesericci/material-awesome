@@ -11,6 +11,8 @@
 # is intended to be a copy of this file
 # to allow out of tree autostart programs
 APPS=(
+    polychromatic-tray-applet
+    polychromatic-controller
     keepassxc
     kdeconnect-indicator
     radeon-profile
