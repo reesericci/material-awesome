@@ -63,7 +63,7 @@ These apps run every time awesome is launched
     'fluxgui', -- Blue light filter
     'xfce4-power-manager', -- Power manager
     'polychromatic-tray-applet', -- Razer Keyboards
-    'pacwall -b "#192933" -d "#003F6B" -e "#EF6C00" -o ~/.config/awesome/theme/wallpapers/wallpaper.png', -- Wallpaper
+    'wallset --video ~/.local/share/backgrounds/Tux.mp4', -- Wallpaper
     'slack -u', -- Slack Applet
     'mailspring -b', -- Email Applet
     '~/.config/awesome/configuration/awspawn' -- Script that kills "dirty" apps that linger on reload.
