@@ -12,7 +12,7 @@ I made a theme for BandagedBD that complements this desktop, check it out at the
 ### Arch & Arch Derivatives
 
 ### 1) Get AUR dependencies (pacman will install all mainstream dependencies)
-- [Tryone144's compton fork (compton-tryone-git)](https://aur.archlinux.org/packages/compton-tryone-git/) for the compositor (blur and animations)
+- [Tryone144's picom fork (picom-tryone-git)](https://aur.archlinux.org/packages/picom-tryone-git/) for the compositor (blur and animations)
 - [mononoki font (ttf-mononoki)](https://aur.archlinux.org/packages/ttf-mononoki/) as the only font
 ### 2) Install the PKGBUILD
 Go to the releases tab and download the latest PKGBUILD
@@ -27,7 +27,7 @@ Open ```lxappearance``` and set the ```Widget``` to be Materia Dark and set the 
 ### 1) Get all the dependencies
 - [AwesomeWM](https://awesomewm.org/) as the window manager
 - [Rofi](https://github.com/DaveDavenport/rofi) for the app launcher
-- [Tryone144's compton fork ](https://github.com/tryone144/compton) for the compositor (blur and animations)
+- [Tryone144's picom fork](https://github.com/tryone144/picom) for the compositor (blur and animations)
 - [i3lock-fancy](https://github.com/meskarune/i3lock-fancy) the lockscreen application
 - [xclip](https://github.com/astrand/xclip) for copying screenshots to clipboard
 - [Blueberry](https://github.com/linuxmint/bluetooth) for bluetooth management
