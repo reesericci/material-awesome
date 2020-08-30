@@ -33,8 +33,7 @@ return {
     'xfce4-power-manager', -- Power manager
     '~/.config/awesome/configuration/awspawn', -- Script that kills "dirty" apps that linger on reload.
     'polychromatic-tray-applet', -- Razer Keyboards
-    'wallset -q', -- stop running wallpaper
-    'wallset --video ~/.local/share/backgrounds/Tux.mp4', -- Wallpaper
+    'nitrogen --restore', -- Wallpaper
     'slack -u', -- Slack Applet
     'mailspring -b', -- Email Applet
     'play --vol .05 ~/.local/share/YeahBoii.opus' -- Yeah Boiii
