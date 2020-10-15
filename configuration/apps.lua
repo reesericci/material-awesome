@@ -7,15 +7,15 @@ return {
   default = {
     screenshot = 'flameshot screen',
     screenshot_region = 'flameshot gui',
-    terminal = 'terminator',
+    terminal = 'alacritty',
     rofi = rofi_command,
     lock = 'dm-tool lock',
-    quake = 'terminator',
+    quake = 'alacritty',
     email = 'mailspring',
     mail = 'mailspring',
 
     browser = 'firefox-nightly',
-    console = 'terminator',
+    console = 'alacritty',
     editor  = 'emacs',
     social = 'discord',
     game = rofi_command,

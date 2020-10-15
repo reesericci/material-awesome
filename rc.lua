@@ -22,7 +22,6 @@ require('module.quake-terminal')
 require('configuration.client')
 require('configuration.tags')
 _G.root.keys(require('configuration.keys.global'))
-
 -- Create a wibox for each screen and add it
 awful.screen.connect_for_each_screen(
   function(s)

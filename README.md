@@ -38,7 +38,7 @@ Open ```lxappearance``` and set the ```Widget``` to be Materia Dark and set the 
 - (Optional) [Materia](https://github.com/nana-4/materia-theme) as GTK theme
 - (Optional) [Papirus Dark](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) as icon theme
 - (Optional) [Flameshot](https://flameshot.js.org) for the screenshot utility
-- (Optional) [Terminator](https://flameshot.js.org) for the terminal emulator
+- (Optional) [Alacritty](https://github.com/alacritty/alacritty) for the terminal emulator
 
 ### 2) Clone the configuration
 
@@ -56,7 +56,7 @@ Open ```lxappearance``` and set the ```Widget``` to be Materia Dark and set the 
 
 ### Default Apps - To change them modify the configuration/apps.lua file
 - Browser: [Firefox Nightly](https://firefox.com)
-- Console: [Terminator](https://launchpad.net/terminator/)
+- Console: [Alacritty](https://github.com/alacritty/alacritty)
 - Code Editor: [Atom](https://atom.io)
 - Social: [Discord](https://discordapp.com)
 - Files: [Nautilus/GNOME Files](https://wiki.gnome.org/action/show/Apps/Files?action=show&redirect=Apps%2FNautilus)
