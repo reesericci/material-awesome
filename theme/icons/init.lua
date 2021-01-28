@@ -7,7 +7,7 @@ return {
   code = dir .. '/code-braces.svg',
   social = dir .. '/forum.svg',
   folder = dir .. '/folder.svg',
-  music = dir .. '/music.svg',
+  mic = dir .. '/mic.svg',
   game = dir .. '/google-controller.svg',
   mail = dir .. '/mail.svg',
   lab = dir .. '/flask.svg',

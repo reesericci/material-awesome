@@ -38,7 +38,7 @@ local globalKeys =
     {modkey},
     'r',
     function()
-      awful.util.spawn('dmenu_run')
+      awful.util.spawn('rofi -show drun ~/.config/rofi/config.rasi')
     end,
     {description = 'show main menu', group = 'awesome'}
   ),

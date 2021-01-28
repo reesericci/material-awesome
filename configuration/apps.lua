@@ -15,27 +15,25 @@ return {
     mail = 'mailspring',
 
     browser = 'firefox-nightly',
-    console = 'alacritty',
-    editor  = 'emacs',
+    console = 'terminator',
+    editor  = 'vscodium',
     social = 'discord',
     game = rofi_command,
     files = 'nautilus',
     mail = 'mailspring',
-    music = 'spotify'
+    podcasts = 'gnome-podcasts'
   },
 
   run_on_start_up = {
     'picom --config ' .. filesystem.get_configuration_dir() .. '/configuration/picom.conf',
     'nm-applet', -- wifi
+    'touchegg', -- gestures
     'blueberry-tray', -- Bluetooth tray icon
     'flameshot', -- Gotta screenshot
     'fluxgui', -- Blue light filter
     'xfce4-power-manager', -- Power manager
     '~/.config/awesome/configuration/awspawn', -- Script that kills "dirty" apps that linger on reload.
-    'polychromatic-tray-applet', -- Razer Keyboards
-    'nitrogen --restore', -- Wallpaper
-    'slack -u', -- Slack Applet
     'mailspring -b', -- Email Applet
-    'play --vol .05 ~/.local/share/YeahBoii.opus' -- Yeah Boiii
+    'stretchly' -- stretch
   }
 }

@@ -41,9 +41,9 @@ local tags = {
     screen = 1
   },
   {
-    icon = icons.music,
-    type = 'music',
-    defaultApp = apps.default.music,
+    icon = icons.mic,
+    type = 'podcast',
+    defaultApp = apps.default.podcast,
     screen = 1
   },
   {
