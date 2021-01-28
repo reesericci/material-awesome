@@ -31,6 +31,7 @@ return {
     'blueberry-tray', -- Bluetooth tray icon
     'flameshot', -- Gotta screenshot
     'fluxgui', -- Blue light filter
+    'feh --bg-scale ~/Pictures/wallpapers/thinkcorrectly.png', --wallpaper
     'xfce4-power-manager', -- Power manager
     '~/.config/awesome/configuration/awspawn', -- Script that kills "dirty" apps that linger on reload.
     'mailspring -b', -- Email Applet
