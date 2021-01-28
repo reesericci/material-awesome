@@ -14,7 +14,7 @@ return {
     email = 'mailspring',
     mail = 'mailspring',
 
-    browser = 'firefox-nightly',
+    browser = 'firefox',
     console = 'terminator',
     editor  = 'vscodium',
     social = 'discord',
