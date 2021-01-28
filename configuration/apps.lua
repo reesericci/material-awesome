@@ -15,13 +15,13 @@ return {
     mail = 'mailspring',
 
     browser = 'firefox',
-    console = 'terminator',
+    console = 'alacritty',
     editor  = 'vscodium',
     social = 'discord',
     game = rofi_command,
     files = 'nautilus',
     mail = 'mailspring',
-    podcasts = 'gnome-podcasts'
+    podcast = 'gnome-podcasts'
   },
 
   run_on_start_up = {
